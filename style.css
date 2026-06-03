@@ -1,0 +1,107 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+@font-face {
+    font-family:raleway ;
+    src: url(./fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+    /* phone screen setting */
+@media screen and (min-width:0px) and (max-width:480px) {
+
+   header nav ul{
+    display: none;
+   }
+   .fa-solid fa-bars{
+    display: block;
+   }
+}    
+    /* header start */
+    header{
+        padding: 60px 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    header img{
+        width: 170px;
+    }
+    nav ul{
+        display: flex;
+        gap: 40px;
+    }
+    nav ul li{
+        list-style: none;
+        text-transform: uppercase;
+        font-family: raleway;
+    }
+    nav ul li button{
+        position: relative;
+        bottom: 10px;
+        text-transform: uppercase;
+        background-color: #ce6528;
+        width: 90px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+    .fa-bars{
+        display: none;
+    }
+        /* header end */
+
+
+        /* hero section 1 start */
+    .container1{
+        padding: 60px 110;
+        display: flex;
+    }
+    .Conchild1 h1{
+        font-family: roboto;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+        color: #171730;
+    }
+    .Conchild1 p{
+        font-family: roboto;
+        font-weight: 400;
+        font-size: larger;
+        line-height: 30px;
+        color: rgb(160, 160, 167);
+    }
+    .container1button{
+        padding: 20px 0px;
+        display: flex;
+        gap: 20px;
+    }
+    .container1button button{
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(55, 127, 187);
+        color: white;
+        font-size: large;
+        width: 170px;
+        height: 45px;
+    }
+    .container1button .button2{
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 5px grey;
+    }
+    .container1button .button1:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 5px grey;
+    }
+    .container1button .button2:hover{
+        cursor: pointer;
+        background-color: rgb(55, 127, 187);
+        color: white;
+    }
+        /* hero section 1 end */
