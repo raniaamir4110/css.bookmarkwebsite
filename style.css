@@ -10,24 +10,7 @@ box-sizing: border-box;}
     font-family: roboto;
     src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
-
-    /* phone screen setting */
-@media screen and (min-width:0px) and (max-width:480px) {
-
-   header nav ul{
-     display: none;
-   }
-   .fa-solid fa-bars {
-     display: block;
-   }
-   .container1{
-        display: flex;
-        flex-direction: column;
-   }
-   .container1 img{
-    width: 300px;
-   }
-}    
+  
     /* header start */
     header{
         padding: 60px 110px;
@@ -56,9 +39,10 @@ box-sizing: border-box;}
         border: none;
         border-radius: 5px;
     }
-    .fa-bars{
+    .fa-solid{
         display: none;
-    }
+    } 
+
         /* header end */
 
 
@@ -120,7 +104,7 @@ box-sizing: border-box;}
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #dddddd;
+        background-color: rgb(247, 247, 247);
         text-align: center;
         font-family: roboto;
     }
@@ -140,8 +124,9 @@ box-sizing: border-box;}
         padding: 60px 110px;
         display: flex;
         gap: 90px;
+        background-color: rgb(247, 247, 247);
     }
-    .child2{
+    .container3 .child2{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -149,15 +134,15 @@ box-sizing: border-box;}
         font-family: roboto;
 
     } 
-    .child2 h1{
+    .container3 .child2 h1{
         font-weight: 400;
         color: #171730;
     } 
-    .child2 p{
+    .container3 .child2 p{
         color: #a0a0a7;
         font-weight: 500;
     } 
-    .child2 button{
+    .container3 .child2 button{
         width: 130px;
         height: 7vh;
         background-color: #5267df;
@@ -167,9 +152,97 @@ box-sizing: border-box;}
         border: none;
         border-radius: 7px;
     }
-    .child2 button:hover{
+    .container3 .child2 button:hover{
         background-color: white;
         color: #171730;
         box-shadow: 2px 2px 2px black;
     }
-           /* hero section 2 start         */
+           /* hero section 2 end        */
+
+           /* hero section 3 start */
+    
+    .container4{
+        padding: 60px 110px;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 90px;
+        background-color: rgb(247, 247, 247);
+    }
+    .container4 .child2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 15px;
+        font-family: roboto;
+
+    } 
+    .container4 .child2 h1{
+        font-weight: 400;
+        color: #171730;
+    } 
+    .container4 .child2 p{
+        color: #a0a0a7;
+        font-weight: 500;
+    } 
+    .container4 .child2 button{
+        width: 130px;
+        height: 7vh;
+        background-color: #5267df;
+        color: white;
+        text-transform: capitalize;
+        font-size: medium;
+        border: none;
+        border-radius: 7px;
+    }
+    .container4 .child2 button:hover{
+        background-color: white;
+        color: #171730;
+        box-shadow: 2px 2px 2px black;
+    }    
+               /* hero section 3 end */
+
+             /* hero section 4 start */
+
+    .container5{
+        padding: 60px 110px;
+        display: flex;
+        flex-direction: row;
+        gap: 90px;
+        background-color: rgb(247, 247, 247);
+    }
+    .container5 .child2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 15px;
+        font-family: roboto;
+
+    } 
+    .container5 .child2 h1{
+        font-weight: 400;
+        color: #171730;
+    } 
+    .container5 .child2 p{
+        color: #a0a0a7;
+        font-weight: 500;
+    } 
+    .container5 .child2 button{
+        width: 130px;
+        height: 7vh;
+        background-color: #5267df;
+        color: white;
+        text-transform: capitalize;
+        font-size: medium;
+        border: none;
+        border-radius: 7px;
+    }
+    .container5 .child2 button:hover{
+        background-color: white;
+        color: #171730;
+        box-shadow: 2px 2px 2px black;
+    }    
+              
+                /* hero section 4 end */
+
+
+   
