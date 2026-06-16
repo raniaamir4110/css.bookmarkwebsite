@@ -372,4 +372,49 @@ box-sizing: border-box;}
     }             
         /* dropdown section end */
 
+   /* email section start */
+
+   .emailsection{
+    background-color: #5267df;
+    color: white;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+    gap: 30px;
+   }
+   .emailsection form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -10px;
+   }
    
+  /* email section end */
+
+  /* footer section start */
+
+   footer{
+    background-color: #242447;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+   }
+   footer ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+   }
+   .footerchild{
+    display: flex;
+    gap: 20px;
+   }
+   .footerchild img{
+    width: 90px;
+    height: 30px;
+   }
+  
+
+    /* footer section end
